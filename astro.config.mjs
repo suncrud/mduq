@@ -7,6 +7,7 @@ import tailwind from '@astrojs/tailwind'
 // https://astro.build/config
 export default defineConfig({
     site: 'https://suncrud.github.io/mduq',
+    base: 'mduq',
     output: 'static',
     integrations: [mdx(), sitemap(), tailwind()],
     markdown: {
