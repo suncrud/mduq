@@ -1,0 +1,1 @@
+const t=document.querySelectorAll(".switch-theme-button");t.forEach(e=>{e.addEventListener("click",()=>{localStorage.theme==="dark"?(localStorage.theme="light",document.documentElement.classList.remove("dark")):(localStorage.theme="dark",document.documentElement.classList.add("dark"))})});
