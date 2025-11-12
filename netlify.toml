@@ -1,0 +1,8 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Optional: set a header / redirect rules, build environment, etc.
+# For example, to set NODE_ENV explicitly (Netlify sets NODE_ENV=production by default)
+[build.environment]
+  NODE_ENV = "production"
