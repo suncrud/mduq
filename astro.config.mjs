@@ -4,13 +4,13 @@ import sitemap from '@astrojs/sitemap'
 
 import tailwind from '@astrojs/tailwind'
 
-const isDev = process.env.NODE_ENV === 'development';
+// const isDev = process.env.NODE_ENV === 'development';
 // https://astro.build/config
 export default defineConfig({
     // site: 'https://suncrud.github.io/mduq',
     // base: '/mduq/',
-    site: isDev ? 'http://localhost:4321' : 'https://suncrud.github.io/mduq/',
-    base: isDev ? '/' : '/mduq/',
+    // site: isDev ? 'http://localhost:4321' : 'https://suncrud.github.io/mduq/',
+    // base: isDev ? '/' : '/mduq/',
     output: 'static',
     integrations: [mdx(), sitemap(), tailwind()],
     markdown: {
