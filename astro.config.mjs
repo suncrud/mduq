@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind'
 // const isDev = process.env.NODE_ENV === 'development';
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mduq.netlify.com',
+  site: 'https://mduq.netlify.app',
     // base: '/mduq/',
     // site: isDev ? 'http://localhost:4321' : 'https://suncrud.github.io/mduq/',
     // base: isDev ? '/' : '/mduq/',
